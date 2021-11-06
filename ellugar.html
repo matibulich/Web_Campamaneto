@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campamento Taky</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!--fonts de google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yaldevi:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>                            <!--CON FLEXBOX-->
+        <div class="header__logo"> <img src="img/logo.png" alt="Campamento taky LOGO"></div>
+        <h1>CampamentoTaky</h1>
+        <h2>Naturaleza y Vida</h2>
+    </header>
+    <nav>
+        <ul class="navegadorFlex">      <!--CON FLEXBOX-->
+            <a class="navegadorFlex__link" href="index.html"><li class="navegadorFlex__item">HOME</li></a>
+            <a class="navegadorFlex__link" href="servicios.html"><li class="navegadorFlex__item">SERVICIOS</li></a>    
+            <a class="navegadorFlex__link current" href="ellugar.html"><li class="navegadorFlex__item">EL LUGAR</li></a>
+            <a class="navegadorFlex__link" href="ubicacion.html"><li class="navegadorFlex__item">UBICACION</li></a>
+            <a class="navegadorFlex__link" href="contacto.html"><li class="navegadorFlex__item">CONTACTO</li></a>
+        </ul>
+    </nav>
+
+
+         <section>
+            <P class="main__texto"> <span class="main__texto--span">60 hectáres</span> 
+                de monte autóctono. Espinillos, Molles y Algarrobos entre otras<br> 
+                especies, cubren esta hermosa zona de la <span class="main__texto--span">Sierras Chicas</span>
+        </section>
+
+
+ <section class="section__articles--galeria ">
+      <div class="row">
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a class="imggalery" href="#" data-bs-toggle="modal" data-bs-target="#foto1"><img src="./img/foto1.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto2"><img src="./img/foto2.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto3"><img src="./img/foto3.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto4"><img src="./img/foto4.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto5"><img src="./img/foto5.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto6"><img src="./img/foto6.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto7"><img src="./img/foto7.jpg" alt=""></a></div>
+     <div class="col-lg-4 p-3 col-md-6 col-sm-12"><a href="#" data-bs-toggle="modal" data-bs-target="#foto8"><img src="./img/foto8.jpg" alt=""></a></div>
+      </div>
+         </section>
+
+<!--INICIO  Modal -->
+<div class="modal fade" id="foto1" tabindex="-1" aria-labelledby="foto1label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto1label">Rio Salsipuedes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="foto2" tabindex="-1" aria-labelledby="foto2label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto2label">Rio Salsipuedes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="foto3" tabindex="-1" aria-labelledby="foto3label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto3label">Dique la Quebrada</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="foto4" tabindex="-1" aria-labelledby="foto4label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto4label">Rio Salsipuedes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="foto5" tabindex="-1" aria-labelledby="foto5label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto5label">Cascada El Salto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="foto6" tabindex="-1" aria-labelledby="foto6label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto6label">Sierras Chicas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="foto7" tabindex="-1" aria-labelledby="foto7label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto7label">Rio Salsipuedes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto7.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="foto8" tabindex="-1" aria-labelledby="foto8label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="foto8label">Rio Salsipuedes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/foto8.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--FIN  Modal -->
+
+<footer class="py-3 my-4 d-flex flex-column mb-0 mt-5">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+    <li class="nav-item"><a href="ellugar.html" class="nav-link px-2 text-muted">El Lugar</a></li>
+    <li class="nav-item"><a href="ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
+    <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+    <div class="footer__iconos">
+      <a href="#">
+          <ion-icon name="logo-facebook" class="lf"></ion-icon>
+      </a>
+      <a href="#">
+          <ion-icon name="logo-whatsapp" class="lw"></ion-icon>
+      </a>
+      <a href="#">
+          <ion-icon name="logo-instagram" class="li"></ion-icon>
+      </a>
+  </div>
+  </ul>
+
+  <p class="text-center text-muted">&copy; Desarrollado por Mati B </p>
+
+</footer>
+
+<script src="./js/bootstrap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> 
+</body>
+
+</html>

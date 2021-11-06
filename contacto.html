@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campamento Taky</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!--fonts de google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yaldevi:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>                           
+        <div class="header__logo"> <img src="img/logo.png" alt="Campamento taky LOGO"></div>
+        <h1>CampamentoTaky</h1>
+        <h2>Naturaleza y Vida</h2>
+    </header>
+
+    <nav>
+        <ul class="navegadorFlex">      
+            <a class="navegadorFlex__link" href="index.html"><li class="navegadorFlex__item">HOME</li></a>
+            <a class="navegadorFlex__link" href="servicios.html"><li class="navegadorFlex__item">SERVICIOS</li></a>    
+            <a class="navegadorFlex__link" href="ellugar.html"><li class="navegadorFlex__item">EL LUGAR</li></a>
+            <a class="navegadorFlex__link" href="ubicacion.html"><li class="navegadorFlex__item">UBICACION</li></a>
+            <a class="navegadorFlex__link current" href="contacto.html"><li class="navegadorFlex__item">CONTACTO</li></a>
+        </ul>
+    </nav>
+
+    
+    <section>
+        <P class="main__texto"> Completá el formulario para ponernos
+                en <span class="main__texto--span"> contacto.</span>
+    </section>
+
+
+    <section class="section__articles">
+
+      
+        <div class="contenedorForm">
+            <form action="">
+          
+              <label for="nombre">Ingresá tu nombre</label>
+              <input type="text" id="nombre" name="fname" placeholder="Mi nombre es...">
+          
+              <label for="apellido">Ingresá tu apellido</label>
+              <input type="text" id="apellido" name="lname" placeholder="Mi apellido es...">
+          
+              <label for="grupo">Tipo de grupo</label>
+              <select id="grupo" name="grupo">
+                <option value="scout">Scout</option>
+                <option value="colegios">Colegios</option>
+                <option value="religiosos">Religiosos</option>
+                <option value="otros">Otros</option>
+              </select>
+          
+              <label for="consulta">Consulta</label>
+              <textarea id="consulta" name="consulta" placeholder="Mi consulta es..." style="height:200px"></textarea>
+          
+              <input class="botonform" type="submit" value="Enviar">
+              <input class="botonform" type="reset" value="Resetear">
+            </form>
+          </div>
+
+
+
+
+    </section>
+
+
+
+    <footer class="py-3 my-4 d-flex flex-column mb-0 mt-5">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+          <li class="nav-item"><a href="ellugar.html" class="nav-link px-2 text-muted">El Lugar</a></li>
+          <li class="nav-item"><a href="ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
+          <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+          <div class="footer__iconos">
+            <a href="#">
+                <ion-icon name="logo-facebook" class="lf"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-whatsapp" class="lw"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-instagram" class="li"></ion-icon>
+            </a>
+        </div>
+        </ul>
+   
+        <p class="text-center text-muted">&copy; Desarrollado por Mati B </p>
+
+</footer>
+        
+        
+        </div>  
+        
+        
+ <script src="./js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+footer{display: flex; justify-content: center; flex-wrap: wrap;
+  
+    background-color: #303030; filter: opacity(0.9);
+    font-family: 'Yaldevi', sans-serif;
+    color:white;}
+
+
+.footerFlex__item {margin: 9px;}
+.footer__iconos{display: flex; 
+align-items: center; flex-wrap: wrap;} 
+.lf{font-size: 2em; color:#1877f2}
+.lw{font-size: 2em; color: #128c7e ;}
+.li{font-size: 2em; color: #e1306c;}
+
+.border-bottom {
+     border-bottom: 1px  solid #C09E45!important}

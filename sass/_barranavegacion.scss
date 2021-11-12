@@ -1,0 +1,13 @@
+.navegadorFlex {display: flex; flex-direction: row;
+    justify-content: center; flex-wrap: wrap; margin-top: 0.5em;}
+
+.navegadorFlex__item {padding:0.5vh 2vh 0.5vh 2vh; list-style-type:none;}
+
+nav  {background-color: #325935; font-family: 'Yaldevi', sans-serif; 
+     font-weight: bolder; border-top-style: solid ;
+     font-size: 2.5vh; border-color: $colorsecundario ; 
+     border-width: 1px; box-shadow: $sombras;}
+
+.navegadorFlex__link {color: white; text-decoration: none; transition: all  1s; }
+.navegadorFlex__link:hover {background-color: #00060D; color: white;}
+.current {background-color: #00060D; color: white;}

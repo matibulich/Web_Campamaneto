@@ -1,25 +1,25 @@
 input, select, textarea {width: 100%; 
     padding: 12px; 
-    border: 3px solid #C09E45; 
+    border: 3px solid $colorsecundario; 
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
-    box-shadow: 0px 4px 10px black;}
+    box-shadow: $sombras;}
 
   label { color: white; font-family: 'Yaldevi', sans-serif;}
 
-  .botonform { background-color: #325935;
+  .botonform { background-color: $colorprimario;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    box-shadow: 0px 4px 10px black; }
+    box-shadow: $sombras; }
  
-  .botonform:hover { background-color: #C09E45;}
+  .botonform:hover { background-color: $colorsecundario;}
   
   .contenedorForm  {border-radius: 5px;
     width:600px;
     padding: 20px;
-    border: solid #325935 5px ; margin: 1rem }
+    border: solid #325935 5px ; border-radius: $bordesradio; margin: 1rem }

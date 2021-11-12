@@ -1,0 +1,10 @@
+.section__articles--galeria img { width: 100%; height:250px; object-fit:cover; border: solid $colorprimario 7px; 
+                                box-shadow: $sombras; border-radius:$bordesradio ; }
+
+.section__articles--galeria img:hover {border: solid $colorsecundario 7px }
+
+.section__articles--galeria { background-color: #303030; filter: opacity(0.85); height: auto;
+                              padding: 1.5rem; margin-top: 1.5rem; box-shadow:$sombras;}
+
+.modal-body img {width: 100%;}
+.modal-body {box-shadow: $sombras;}

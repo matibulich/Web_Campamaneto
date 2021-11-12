@@ -1,0 +1,57 @@
+.section__servicios {display:flex; flex-wrap:wrap; justify-content: center; gap: 7px; background-color: #303030; filter: opacity(0.85); margin-top: 1.5em;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem; box-shadow: $sombras}
+
+.section__servicios--logo {display: flex; align-content: space-around; flex-wrap: wrap;} 
+.section__servicios--logo img {height: 7em;} 
+
+.section__servicios--grid {display: grid; 
+grid-template-rows: 100px 100px;
+grid-template-columns: repeat(4, 9rem);
+justify-content: center;
+
+grid-template-areas:
+                   "b c d e "
+                   "f f g g "}
+
+
+.section__servicios--elemento2 {grid-area: b; }
+.section__servicios--elemento3 {grid-area: c; }
+.section__servicios--elemento4 {grid-area: d; }
+.section__servicios--elemento5 {grid-area: e; }
+.section__servicios--elemento6 {grid-area: f; margin-top: 0.5rem; margin-bottom: auto; padding-left: 0.5rem;
+                              color: white; font-family: 'Yaldevi', sans-serif; border-left: solid 3px $colorsecundario;}
+.section__servicios--elemento7 {grid-area: g; @extend .section__servicios--elemento6 }
+.section__servicios--elemento8 {grid-area: h; }
+
+.section__servicios--elemento2 img{height: 100px; width: 140px;  }
+.section__servicios--elemento3 img {height: 100px; width: 140px; }
+.section__servicios--elemento4 img{height: 100px; width: 140px; }
+.section__servicios--elemento5 img{height: 100px; width: 140px;}
+.section__servicios--elemento6 img{height: 100px; width: 120px; }
+.section__servicios--elemento7 img {height: 100px; width: 120px; }
+.section__servicios--elemento8 img{height: 100px; width: 120px; }
+
+/*---------------------------------------------------------SECCION - SERVICIOS RESPONSIVE*/
+     @media(max-width: 576px) {
+     .section__servicios--grid { display: grid; grid-template-rows: auto; grid-template-columns: repeat(2 , 9rem);
+     justify-content: center;
+     grid-template-areas: "b c"
+                         "d e"
+                         "f g";
+     gap: 5px;}
+     }
+
+.section__servicios--elemento6 {
+     grid-area: f;
+     margin-top: 0.5rem;
+     margin-bottom: auto; 
+     padding-left: 1.5rem; 
+     margin-left:0.5em;
+     color: white; font-family: 'Yaldevi', sans-serif;
+     border-top: solid 3px $colorsecundario; border-left: none;}
+
+.section__servicios--elemento7 {grid-area: g; @extend .section__servicios--elemento6;}
+    
+.section__servicios--elemento6 li  {list-style:disc ;}
+.section__servicios--elemento7 li   {list-style:disc  ;}       

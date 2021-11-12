@@ -1,7 +1,27 @@
 $colorprimario: #325935;
 $colorsecundario: #C09E45;
 $bordesform: solid #C09E45;
+$bordesradio:  7px 53px 7px 7px;
+$sombras:  0px 7px 9px 2px #00060D;
+
+* {
+    margin:0;
+    padding:0;
+ }
+ 
+
+body {background-image: url(img/imagenfondo.jpg); background-repeat: no-repeat; 
+      background-color:#303030 ; background-size: cover;}
+li {list-style-type: none;}
+ul {margin:0; padding: 0;}
 
 
-@import "formulario";
-@import "footer";
+@import "./sass/header";
+@import "./sass/formulario";
+@import "./sass/footer";
+@import "./sass/barranavegacion";
+@import "./sass/main";
+@import "./sass/galeria";
+@import "./sass/ubicacion";
+@import "./sass/servicios";
+@import "./sass/articles";

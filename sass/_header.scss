@@ -6,6 +6,7 @@ header {display: flex; flex-direction: column;
     filter: opacity(0.85); }
 
 .header__logo { margin-top: 5px;}
+.navbar-toggler {box-shadow: 1px 6px 12px 0px black; border-width:2px}
 
 h1 {color: $colorsecundario;text-align: center;  font-family: 'Abhaya Libre', serif; font-weight: bolder; margin-bottom: 0px; }
 h2 {color: $colorprimario; @extend h1 ; margin-top: -10px;}

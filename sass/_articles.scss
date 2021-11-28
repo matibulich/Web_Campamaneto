@@ -1,6 +1,10 @@
 .section__articles--alberguecarpas { height: 15rem; 
     width:15rem; margin:3rem; 
     border-style: solid; 
+    border-image:url(img/bordemadera.png);
+    border-image-width: 30px;
+    border-image-slice: 25%;
+    border-image-outset: 10px;
     border-color: $colorprimario; border-radius: 1em; 
     border-width: 7px ; text-align: center;
     box-shadow: inset 1px 6px 20px 19px}
@@ -11,4 +15,5 @@
 .link2 {text-decoration: none;}
 
 
-.textoanimadoIndex { color: white;  font-family: 'Yaldevi', sans-serif; font-size: 3rem; text-align: center; padding-top: 5rem; font-weight: bolder;}
+.textoanimadoIndex { color: white;  font-family: 'Yaldevi', sans-serif; font-size:
+                     3rem; text-align: center; padding-top: 5rem; font-weight: bolder;}

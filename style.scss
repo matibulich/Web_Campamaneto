@@ -1,8 +1,19 @@
+$navbar-toggler-font-size: 1rem;
+$navbar-toggler-focus-width: 1px;
+$navbar-light-toggler-border-color:#C09E45;
+
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
 $colorprimario: #325935;
 $colorsecundario: #C09E45;
 $bordesform: solid #C09E45;
 $bordesradio:  7px 53px 7px 7px;
 $sombras:  0px 7px 9px 2px #00060D;
+
 
 * {
     margin:0;
